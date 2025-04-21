@@ -105,10 +105,8 @@ The Boolean model in Information Retrieval (IR) is a fundamental model used for 
             results.update(current_set)
 
         return sorted(results)
-
-
-if __name__ == "__main__":
-    indexer = BooleanRetrieval()
+    if __name__ == "__main__":
+        indexer = BooleanRetrieval()
 
     documents = {
         1: "Python is a programming language",
